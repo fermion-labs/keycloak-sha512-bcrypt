@@ -23,6 +23,9 @@ dependencies {
 
     // BCrypt
     implementation("at.favre.lib:bcrypt:$bcryptVersion")
+    implementation("org.springframework.security:spring-security-crypto:6.1.0")
+
+    compileOnly("org.springframework:spring-jcl:6.0.10")
 
     // JBoss
     compileOnly("org.jboss.logging:jboss-logging:$jbossLoggingVersion")
