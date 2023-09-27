@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.github.leroyguillaume"
-version = "1.6.1"
+version = "1.7.0"
 
 repositories {
     mavenCentral()
@@ -24,6 +24,9 @@ dependencies {
     // BCrypt
     implementation("at.favre.lib:bcrypt:$bcryptVersion")
     implementation("org.springframework.security:spring-security-crypto:6.1.0")
+
+    // Encryption
+    implementation("jakarta.ws.rs:jakarta.ws.rs-api:3.1.0")
 
     compileOnly("org.springframework:spring-jcl:6.0.10")
 
