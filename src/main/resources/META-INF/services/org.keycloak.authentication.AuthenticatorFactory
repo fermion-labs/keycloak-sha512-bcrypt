@@ -1,1 +1,2 @@
 com.github.leroyguillaume.keycloak.authenticator.EncryptedPasswordAuthenticatorFactory
+com.github.leroyguillaume.keycloak.authenticator.LogoutSessionAuthenticatorFactory
